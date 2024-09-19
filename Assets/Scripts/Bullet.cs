@@ -36,4 +36,9 @@ public class Bullet : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    void OnTriggerExit2D(Collider2D coll)
+    {
+
+    }
 }
